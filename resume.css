@@ -1,0 +1,64 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #222;
+    color: #fff;
+    font-size: 18px;
+    text-align: center;
+}
+
+.resume-section {
+    margin-top: 50px;
+    padding: 20px;
+}
+
+.resume-container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.resume-content img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.download-btn {
+    display: inline-block;
+    padding: 12px 25px;
+    background-color: #007ced;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 30px;
+    margin-top: 20px;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+.download-btn:hover {
+    background-color: #005fa3;
+}
+/* Styling for the Back to Home button */
+.back-to-home-btn {
+    display: inline-block;
+    background-color: #007ced;
+    color: #fff;
+    padding: 5px 10px;
+    margin-top: 30px;
+    border-radius: 15px;
+    text-decoration: none;
+    font-size: 0.7rem;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.back-to-home-btn:hover {
+    background-color: #00c7ff;
+    transform: scale(1.05);
+}

@@ -1,0 +1,67 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #222;
+    color: #fff;
+    font-size: 18px;
+    text-align: center;
+}
+
+.contact-section {
+    margin-top: 50px;
+    padding: 20px;
+}
+
+.contact-container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.contact-container h2 {
+    font-size: 2.5rem;
+    color: #007ced;
+    margin-bottom: 20px;
+}
+
+.contact-container p {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+}
+
+.contact-info {
+    font-size: 1rem;
+    color: #e5e5e5;
+    line-height: 1.6;
+}
+
+.contact-info a {
+    color: #007ced;
+    text-decoration: none;
+}
+
+.contact-info a:hover {
+    text-decoration: underline;
+    color: #00c7ff;
+}
+/* Styling for the Back to Home button */
+.back-to-home-btn {
+    display: inline-block;
+    background-color: #007ced;
+    color: #fff;
+    padding: 5px 10px;
+    margin-top: 30px;
+    border-radius: 15px;
+    text-decoration: none;
+    font-size: 0.7rem;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.back-to-home-btn:hover {
+    background-color: #00c7ff;
+    transform: scale(1.05);
+}
